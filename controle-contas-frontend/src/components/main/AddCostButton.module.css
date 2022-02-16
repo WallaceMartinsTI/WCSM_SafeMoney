@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:nth-child(1) {
+  justify-content: flex-end;
+}
+
+.button_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.button_container button {
+  border: solid 2px green;
+  background-color: rgba(65, 145, 49, .8);
+  color: white;
+  border-radius: 5em;
+  padding: .4em;
+
+}
+
+.add_form {
+  position: absolute;
+
+  margin-top: 50vh;
+
+  margin-left: 15vw;
+  margin-right: 15vw;
+
+  width: 40vw;
+
+  border: solid 2px green;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 5em;
+}

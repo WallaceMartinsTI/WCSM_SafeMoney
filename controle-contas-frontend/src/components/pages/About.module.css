@@ -1,0 +1,29 @@
+.about_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+.about_container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+.about_container div h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.about_container div p {
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+  text-align: left;
+  color: #7B7B7B;
+}

@@ -1,0 +1,126 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  width: 98vw;
+  
+}
+
+.cost_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 3em;
+
+  gap: 3em;
+  
+  font-size: 80%; 
+}
+
+.cost {
+  width: 20em;
+  height: 16em;
+  word-wrap: break-word;
+  flex-basis: auto;
+  padding: 1em;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #2F2F2F;
+  color: #efefef;
+  border-radius: 1em;
+}
+
+.cost h4 {
+  height: 3em;
+}
+
+.cost div p {
+  height: 2em;
+}
+
+.button_container .price {
+  border-top: solid 1px white;
+  display: flex;
+  padding-right: 1em;
+  padding-top: .5em;
+}
+
+.button_container .price strong {
+  color: #228B22;
+  align-self: flex-start;
+  
+}
+
+.button_container {
+  display: flex;
+  margin-top: .6em;
+  justify-content: space-between;
+
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.button_container .buttons {
+  margin-top: .5em;
+}
+
+.button_container .buttons button {
+  width: 3em;
+  height: 2em;
+  border-radius: .5em;
+  border: none;
+
+}
+
+.button_container .buttons > :nth-child(1) {
+  background-color: rgba(255, 255, 0, 1);
+  margin-right: .5em;
+}
+
+.button_container .buttons > :nth-child(2) {
+  background-color: rgba(255, 0, 0, .8);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+
+.container:nth-child(1) {
+  justify-content: flex-end;
+}
+
+.button_container {
+  justify-content: flex-end;
+}
+
+.button_container button {
+  border: solid 2px green;
+  background-color: rgba(65, 145, 49, .8);
+  color: white;
+  border-radius: 5em;
+  padding: .4em;
+
+}
+
+.add_form {
+  position: absolute;
+
+  margin-top: 50vh;
+
+  margin-left: 15vw;
+  margin-right: 15vw;
+
+  width: 40vw;
+
+  border: solid 2px green;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 5em;
+}
+

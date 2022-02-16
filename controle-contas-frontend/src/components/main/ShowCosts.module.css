@@ -1,0 +1,76 @@
+.cost_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 3em;
+
+  gap: 3em;
+  
+  font-size: 80%; 
+}
+
+.cost {
+  width: 20em;
+  height: 16em;
+  word-wrap: break-word;
+  flex-basis: auto;
+  padding: 1em;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #2F2F2F;
+  color: #efefef;
+  border-radius: 1em;
+}
+
+.cost h4 {
+  height: 3em;
+}
+
+.cost div p {
+  height: 2em;
+}
+
+.button_container .price {
+  border-top: solid 1px white;
+  display: flex;
+  padding-right: 1em;
+  padding-top: .5em;
+}
+
+.button_container .price strong {
+  color: #228B22;
+  align-self: flex-start;
+  
+}
+
+.button_container {
+  display: flex;
+  margin-top: .6em;
+  justify-content: space-between;
+  
+}
+
+.button_container .buttons {
+  margin-top: .5em;
+}
+
+.button_container .buttons button {
+  width: 3em;
+  height: 2em;
+  border-radius: .5em;
+  border: none;
+
+}
+
+.button_container .buttons > :nth-child(1) {
+  background-color: rgba(255, 255, 0, 1);
+  margin-right: .5em;
+}
+
+.button_container .buttons > :nth-child(2) {
+  background-color: rgba(255, 0, 0, .8);
+}

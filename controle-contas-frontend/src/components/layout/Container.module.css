@@ -1,0 +1,27 @@
+.container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.columnMod {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  margin-top: 5em;
+}
+
+.min-height {
+  min-height: 75%;
+}
